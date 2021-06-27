@@ -1,0 +1,26 @@
+.section {
+    background-color: white;
+    margin: 10px 0;
+    box-shadow: 1px 1px 5px #ddd;
+}
+
+.section__header {
+    padding: 20px;
+    border-bottom: 2px solid #eee;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 540px) {
+    .section__header {
+        grid-template-columns: 1fr;
+        grid-gap: 25px;
+    }
+}
+
+.section__body {
+    padding: 20px;
+}
