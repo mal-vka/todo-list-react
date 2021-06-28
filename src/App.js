@@ -7,10 +7,10 @@ import Container from "./Container";
 
 
 let tasks = [
-  { id: 1, content: "podlać rośliny" },
+  { id: 1, content: "podlać rośliny", done: false },
   { id: 2, content: "zrobić zakupy na bazarze", done: true },
   { id: 3, content: "kupić prezent na urodziny siostry koleżanki męża z pracy", done: true },
-  { id: 4, content: "iść na jogę" },
+  { id: 4, content: "iść na jogę", done: false },
 ];
 
 const hideDoneTasks = false;
@@ -35,6 +35,6 @@ function App() {
 
     </Container>
   );
-}
+};
 
 export default App;
