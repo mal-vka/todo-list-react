@@ -1,7 +1,7 @@
 # TODO list
 
-<!-- ## demo
-https://mal-vka.github.io/to-do-list/ -->
+## demo
+https://mal-vka.github.io/to-do-list/
 
 ## description
 This is a simple to-do-list which allows you to add, mark and remove your daily tasks.
