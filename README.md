@@ -1,13 +1,13 @@
 # TODO list
 
-<!-- ## demo
-https://mal-vka.github.io/to-do-list/ -->
+## demo
+https://mal-vka.github.io/todo-list-react/
 
 ## description
 This is a simple to-do-list which allows you to add, mark and remove your daily tasks.
 It is made for educational purposes as a first attempt to use React, a second JS's project and further HTML&CSS training. 
 To build this simple website, I used:
-- was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+- was bootstrapped with [Create React App](https://github.com/facebook/create-react-app);
 - ES6 features with immutability concept;
 - the semantic HTML and the BEM methodology - for clear and structured references;
 - cdn normalize and CSS (grid, basic transitions, media queries);
