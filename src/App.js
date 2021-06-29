@@ -5,7 +5,6 @@ import Section from "./Section";
 import Header from "./Header";
 import Container from "./Container";
 
-
 let tasks = [
   { id: 1, content: "podlać rośliny", done: false },
   { id: 2, content: "zrobić zakupy na bazarze", done: true },
