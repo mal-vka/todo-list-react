@@ -8,7 +8,11 @@ const Buttons = (props) => (
                 <button onClick={props.toggleHideDone} className="buttons__button">
                     {props.hideDoneTask ? "Pokaż" : "Ukryj"} ukończone
                 </button>
-                <button className="buttons__button" disabled={props.tasks.every(task => task.done)}>
+                <button
+                    disabled={props.tasks.every(task => task.done)}
+                    onClick={props.setAllDone}
+                    className="buttons__button"
+                >
                     Ukończ wszystkie
                 </button>
             </React.Fragment>
