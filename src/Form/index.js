@@ -7,8 +7,13 @@ const Form = (props) => {
 
     const onFormSubmit = (event) => {
         event.preventDefault();
-        props.addNewTask(newTaskContent.trim());
-        setnewTaskContent("");
+        if (newTaskContent.trim() === "") {
+            return;
+        } else {
+            props.addNewTask(newTaskContent.trim());
+            setnewTaskContent("");
+        }
+
     };
 
     return (
